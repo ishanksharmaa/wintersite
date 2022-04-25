@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url("background.png");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.navbar{
+    /* background-color: red; */
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    padding-left: 60px;
+}
+.logo{
+    width: 160px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.cart{
+    width: 45px;
+    cursor: pointer;
+    position: relative;
+    right: 18px;
+}
+ul{
+    color: white;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-weight: 100;
+
+}
+ul li a{
+    color: #333;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 5px;
+    padding: 4px;
+    box-shadow: 2px 4px 18px rgba(94, 28, 68, 0.15);
+}
+
+/* CONTENT */
+.content{
+    margin-left: 10%;
+    margin-top: 6%;
+}
+.content .btn{
+    color: #fff;
+    background: linear-gradient(45deg, #87adfe, #ff77cd);
+    border-radius: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 5px;
+    box-shadow: 3px 6px 20px rgba(94, 28, 68, 0.15);
+}
+
+.content h1{
+    /* background-color: red; */
+    color: #232d60e7;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 23px;
+    margin-bottom: 16px;
+}
+p{
+    color: #6a7199;
+    font-size: 18px;
+}
+.arrows{
+    /* background-color: red; */
+    margin-top: 40px;
+    margin-left: 130px;
+    display: flex;
+    gap: 20px;
+}
+.arrows img{
+    width: 40px;
+    cursor: pointer;
+}
+.model img{
+    height: 85%;
+    position: absolute;
+    bottom: 0;
+    right: 188px;
+}
+
+.social{
+    /* background-color: red; */
+    transform: rotate(-270deg);
+    position: absolute;
+    right: -120px;
+    bottom: 380px;
+    /* text-transform: uppercase; */
+}
+.social a{
+    color: #6a7199;
+    text-decoration: none;
+    padding-right: 12px;
+    font-size: 20px;
+}
+/* .social a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+} */
+
+.fb:hover{
+    color: #fff;
+    background-color: #4267B2;
+    border-radius: 5px;
+    padding: 3px;
+}
+.insta:hover{
+    color: #fff;
+    background-color: #8a3ab9;
+    border-radius: 5px;
+    padding: 3px;
+}
+.tweet:hover{
+    color: #fff;
+    background-color: #00acee;
+    border-radius: 5px;
+    padding: 3px;
+}
+.git:hover{
+    color: #fff;
+    background-color: #1f1e1e;
+    border-radius: 5px;
+    padding: 3px;
+}
